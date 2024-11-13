@@ -1,0 +1,132 @@
+.header {
+    background-color: white;
+    max-height: 80px;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-1 {
+    padding-left: 150px;
+    position: relative;
+}
+
+.gas-station {
+    width: 39px;
+    height: 32px;
+    background: transparent url("../../../assests/gas-station-svgrepo-com.svg") 0% 0% no-repeat;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ff7f5c;
+    position: absolute;
+    top: 25px;
+    left: 48%;
+}
+
+.circle-2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ff7f5c;
+    position: absolute;
+    top: 25px;
+    left: 15%;
+}
+
+.item-2 {
+    padding-left: 30px;
+    position: relative;
+}
+
+.item-1,
+.item-2 {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.item-1 p,
+.item-2 p {
+    font-size: 28px;
+    color: gray;
+    font-weight: 500;
+}
+
+.item-1-content p,
+.item-2-content p {
+    font-size: 10px;
+    color: gray;
+}
+
+.item-2 i {
+    font-size: 28px;
+    color: gray;
+}
+
+.calendar {
+    display: flex;
+    gap: 6px;
+    background: #f9f5f3 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    overflow: hidden;
+    text-align: left;
+    font: normal normal bold 14px/18px Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    color: #3d5161;
+}
+
+.calendar p {
+    padding: 8px 20px;
+    font-size: 12px;
+    border-radius: 30px;
+}
+
+.calendar .active {
+    background-color: #ff7f5c;
+    color: #fff;
+}
+
+.time-date {
+    display: flex;
+    gap: 10px;
+}
+
+.time-date-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 8px;
+    width: 210px;
+}
+
+.fa-stop,
+.fa-play {
+    color: #ff7f5c;
+}
+
+.time-date-text {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.time-date-text .small-text {
+    font-size: 12px;
+    color: gray;
+}
